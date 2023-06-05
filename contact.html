@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Contact Page</title>
+    </head>
+        <div class="contain">
+            <style type="text/css">
+                .st{
+                    background:linear-gradient(indigo,teal);
+                    background-repeat: no-repeat;
+                    padding-top: 200px;
+                    padding-bottom: 200px;  
+                    padding-left: 200px; 
+                    padding-right: 200px;        
+                }
+                .al{
+                    text-align: center;
+                    color: bisque;
+                }
+                .form {
+                margin: 0 auto;
+                width: 210px;
+        
+                }
+        
+                .form label{
+                display: inline-block;
+                text-align: left;
+                }
+        
+                .form input{
+                display: inline-block;
+                text-align: left;
+                padding-top: 0;
+                padding-left: 0;
+                }
+        
+            </style>
+        
+        
+            
+        
+        <body class="st" >
+            <center>
+            <h1 class="al">Contact Us</h1>
+            
+                <h4>Got a question? We'd love to hear from you.
+                    Send us a message and we'll respond asap!
+                </h4></center>
+            </div>
+
+            
+            <center>
+                <div class="form" class="st">
+
+            <label for="name"><b>Name</b></label><br>
+            <input type="text" id="name" name="name">
+            <br>
+            <label for="email"><b>Email Address</b></label><br>
+            <input type="text" id="email" email="email">
+            <br>
+            <label for="subject"><b>Message</b></label><br>
+            <textarea id="message" name="message" style="height:100px"></textarea>
+            <br>
+            <br>
+            </div>
+            <script>
+                function showAlert() 
+                {
+                  var myText = "Message sent!";
+                  alert (myText);
+                }
+            </script>              
+            <button onclick="showAlert()">Submit</button>
+
+        </center>
+        </form>
+        
+    </body>
+</html>
